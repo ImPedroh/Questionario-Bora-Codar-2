@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cálculo do Preço das Maçãs. Exercicio 7</h1>
+    <script>
+         let quantidade =parseInt(prompt("Quantas maçãs você comprou? "));
+         let preco = 3.50
+         let numero = 2.50;
+         let final = Preço * quantidade
+         let final2 = Número * quantidade
+         
+         if (quantidade < 12){
+            document.write("<br>" + "O preço ficou " + final)
+         }
+            if (quantidade >= 12){
+            document.write("<br>" + "O preço ficou " + final2)
+         }
+    </script>
+</body>
+</html>
